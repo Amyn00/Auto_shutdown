@@ -1,0 +1,11 @@
+#!/bin/bash
+
+
+git add .
+
+read -p "your commit message: " msg
+git commit -m "$msg"
+
+git pull
+
+git push
